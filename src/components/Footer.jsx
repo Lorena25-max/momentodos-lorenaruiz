@@ -1,5 +1,11 @@
+import "./Footer.css";
+
 const Footer = () => {
-  return <footer>Footer</footer>;
+  return (
+    <footer className="footer">
+      <p>© 2026 Zenith Bonsai Studio.</p>
+    </footer>
+  );
 };
 
 export default Footer;

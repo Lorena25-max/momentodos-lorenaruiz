@@ -1,0 +1,46 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TIPOGRAFÍA GENERAL */
+body {
+  font-family: 'Outfit', sans-serif;
+  color: #2c2c2c;
+  background-color: #f7f6f2;
+}
+
+/* CONTENEDOR CENTRAL */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TITULOS */
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #2C3627;
+}
+
+/* PÁRRAFOS */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* BOTÓN BASE */
+button {
+  background-color: #2f4f3f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}

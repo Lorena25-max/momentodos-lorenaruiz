@@ -1,0 +1,21 @@
+.filosofia {
+  padding: 90px 90px 90px 90px;
+  text-align: center;
+}
+
+.filosofia-content {
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.filosofia h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.filosofia p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
