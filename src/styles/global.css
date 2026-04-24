@@ -44,3 +44,19 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
+.filosofia {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.filosofia-content {
+  max-width: 650px;
+  text-align: start;
+}
+
+a {
+  text-decoration: none;   
+  color: inherit;          
+}

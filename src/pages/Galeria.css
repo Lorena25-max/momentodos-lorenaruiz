@@ -1,10 +1,29 @@
 .galeria {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 40px;
+/* 🔹 TEXTO SUPERIOR CENTRADO Y ELEGANTE */
+.galeria-header {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
+
+.galeria-header h1 {
+  margin-bottom: 20px;
+}
+
+.galeria-header p {
+  margin-bottom: 60px;
+}
+
+/* 🔹 GRID */
+.galeria-grid {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+

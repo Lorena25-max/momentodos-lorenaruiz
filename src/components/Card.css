@@ -1,9 +1,18 @@
-.card {
-  text-align: center;
+
+
+.card p {
+  font-size: 16px;
+  color: #5d7052;
 }
 
-.card-img {
-  height: 120px;
-  background-color: #ddd;
-  margin-bottom: 10px;
+.card {
+  background-color: #fffdf9;
+  height: 250px;   /* 🔥 AJUSTA ESTE VALOR */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #e2dfd5;
+  transition: transform 0.3s ease;
 }

@@ -1,0 +1,19 @@
+.hero {
+  padding: 120px 0;
+  display: flex;
+  justify-content: flex-start; /* izquierda */
+}
+
+.hero-content {
+  max-width: 500px;
+  margin-left: 300px; /* 🔥 esto alinea como el diseño */
+}
+
+/* 🔥 AQUÍ está el control real del espacio */
+.hero-content p {
+  margin: 20px 0 20px 0;  /* top right bottom left */
+}
+
+.hero-content button {
+  margin-top: 50;
+}
